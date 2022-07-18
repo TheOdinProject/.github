@@ -1,1 +1,21 @@
-A special repo for hosting community health files and our ogranisation profiles.
+This is a special repo for hosting community health files and our ogranisation profile. It has two main uses:
+
+### Organisation Landing Page
+
+The [`README` in the profile directory](profile/README.md) will render on our [organisation home page](https://github.com/TheOdinProject). 
+
+### Default Community Health Files
+
+Community health files are files such as `CONTRIBUTING.md`, `CODE_OF_CONDUCT.md` and issue templates. Files defined in this repo will provide a fallback / default for any organisation repo that doesn't have one of its own.
+
+> **Note**
+> Todo / Help wanted!
+
+* [ ] ISSUE_TEMPLATE/
+* [ ] CODE_OF_CONDUCT.md
+* [ ] CONTRIBUTING.md
+* [ ] SECURITY.md
+* [ ] SUPPORT.md
+* [ ] FUNDING.yml
+
+For more info see [creating a default community health file](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/creating-a-default-community-health-file).
