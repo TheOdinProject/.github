@@ -1,6 +1,21 @@
-# Welcome To The Odin Project!
+This is a special repo for hosting community health files and our ogranisation profile. It has two main uses:
 
-[The Odin Project (TOP)](https://www.theodinproject.com/) is an open-source curriculum for learning full-stack web development. Our mission is to provide a comprehensive curriculum to learn web development for free. We help users learn the skills and build the impressive portfolio of projects they need to get hired as a web developer.
+### Organisation Landing Page
 
+The [`README` in the profile directory](profile/README.md) will render on our [organisation home page](https://github.com/TheOdinProject). 
 
-![odin landing image](https://www.theodinproject.com/assets/home-isometric-eebc110218cbdb1460dd2dfc662a4e96ae94747667dc81da422804ef55cfd2d8.svg)
+### Default Community Health Files
+
+Community health files are files such as `CONTRIBUTING.md`, `CODE_OF_CONDUCT.md` and issue templates. Files defined in this repo will provide a fallback / default for any organisation repo that doesn't have one of its own.
+
+> **Note**
+> Todo / Help wanted!
+
+* [ ] ISSUE_TEMPLATE/
+* [ ] CODE_OF_CONDUCT.md
+* [ ] CONTRIBUTING.md
+* [ ] SECURITY.md
+* [ ] SUPPORT.md
+* [ ] FUNDING.yml
+
+For more info see [creating a default community health file](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/creating-a-default-community-health-file).
