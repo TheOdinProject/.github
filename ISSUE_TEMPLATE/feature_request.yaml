@@ -16,7 +16,7 @@ body:
       options:
         - label: I have thoroughly read and understand [The Odin Project Contributing Guide](https://github.com/TheOdinProject/.github/blob/main/CONTRIBUTING.md)
           required: true
-        - label: "The title of this issue follows the `Feature request: brief description of feature request` format, e.g. `Feature request: add dark mode"
+        - label: "The title of this issue follows the `Feature request: brief description of feature request` format, e.g. `Feature request: add dark mode`"
           required: true
         - label: Would you like to work on this issue?
           required: false
