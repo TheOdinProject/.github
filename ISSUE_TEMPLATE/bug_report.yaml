@@ -1,0 +1,64 @@
+name: Bug report
+description: Report a issue or bug
+title: "Bug: <short description of bug>"
+assigness:
+  - nil
+body:
+  - type: markdown
+    attributes: 
+      value: |
+        Thanks for taking the time to report a bug! Please fill out these fields so your report can be reviewed - giving the right amount of detail makes it much easier for maintainers to process.
+
+        If you have any questions or are unsure about anything, don't be afraid to ask! The maintainers are here to help.
+  - type: checkboxes
+    id: contributing
+    attributes:
+      label: Checks
+      description: Please fill out the following checkboxes
+      options:
+        - label: I have thoroughly read and understand [The Odin Project Contributing Guide](https://github.com/TheOdinProject/.github/blob/main/CONTRIBUTING.md)
+          required: true
+        - label: "The title of this issue follows the Bug: brief description of bug format, e.g. Bug: Lesson complete button does not update on click"
+          required: true
+        - label: Would you like to work on this issue?
+          required: false
+  - type: textarea
+    id: suggested-changes
+    attributes:
+      label: Describe your suggestion
+      description: A description of your suggestion. You can provide screenshots or additional context if relevant
+      placeholder: ex 'There is a typo in the additional resource section - it should be wombat, not combat'
+    validations:
+      required: true
+  - type: input
+    id: link
+    attributes:
+      label: Location
+      description: A link to the relevant location, or the content that needs to be fixed. If not applicable, describe where to look for your suggestion
+      placeholder: ex. https://www.theodinproject.com/lessons/ruby-how-this-course-will-work
+    validations:
+      required: true
+  - type: input
+    id: discord-discussion
+    attributes:
+      label: (Optional) Discord discussion
+      description: If this has been discussed on Discord, provide a link to the thread/messages where it was discussed
+      placeholder: ex. odinite#1234
+    validations:
+      required: false
+  - type: input
+    id: contact
+    attributes:
+      label: (Optional) Discord Name
+      description: Optionally provide your discord name to help coordinate changes there if necessary
+      placeholder: ex. odinite#1234
+    validations:
+      required: false
+  - type: textarea
+    id: additional-comments
+    attributes:
+      label: (Optional) Additional Comments
+      description: "Anything else you'd like to cover"
+      placeholder: We ❤️ open source
+    validations:
+      required: false
