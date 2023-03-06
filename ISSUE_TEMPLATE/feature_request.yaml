@@ -1,0 +1,68 @@
+name: Feature Request
+description: Suggest a new feature or enhancement for this project
+title: "Feature request: <short description of feature request>"
+body:
+  - type: markdown
+    attributes: 
+      value: |
+        Thank you for taking the time to submit a new feature request to The Odin Project. In order to get issues closed in a reasonable amount of time, you must include a baseline of information about the feature/enhancement you are proposing
+
+        If you have any questions or are unsure about anything, don't be afraid to ask! The maintainers are here to help.
+  - type: checkboxes
+    id: contributing
+    attributes:
+      label: Checks
+      description: Please fill out the following checkboxes
+      options:
+        - label: I have thoroughly read and understand [The Odin Project Contributing Guide](https://github.com/TheOdinProject/.github/blob/main/CONTRIBUTING.md)
+          required: true
+        - label: "The title of this issue follows the `Feature request: brief description of feature request` format, e.g. `Feature request: add dark mode"
+          required: true
+        - label: Would you like to work on this issue?
+          required: false
+  - type: textarea
+    id: suggested-feature
+    attributes:
+      label: Describe your suggestion
+      description: |
+        A clear and concise description of what the feature or enhancement is, including how it would be useful/beneficial or what problem(s) it would solve.
+
+        When suggesting an entirely new feature, it can help to provide a statement that follows the "When EVENT occurs, I want SOMETHING to happen, to achieve RESULT" format, e.g. "When I visit TOP after a long break, I want a button to be able to reset all of my progress at once, so I can start fresh." 
+      placeholder: ex 'There is a typo in the additional resource section - it should be wombat, not combat'
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance-criteria
+    attributes:
+      label: Acceptance criteria
+      description: A list of checkbox items that explain the requirements needed to be met to resolve this request
+      placeholder: |
+        - [ ] A theme toggle is present on the dashboard
+        - [ ] Clicking the theme toggle changes between light and dark
+        - [ ] A user's theme choice persists after leaving the website
+    validations:
+      required: true
+  - type: input
+    id: discord-discussion
+    attributes:
+      label: (Optional) Discord discussion
+      description: If this has been discussed on Discord, provide a link to the thread/messages where it was discussed
+      placeholder: 
+    validations:
+      required: false
+  - type: input
+    id: contact
+    attributes:
+      label: (Optional) Discord Name
+      description: Optionally provide your discord name to help coordinate changes there if necessary
+      placeholder: ex. odinite#1234
+    validations:
+      required: false
+  - type: textarea
+    id: additional-comments
+    attributes:
+      label: (Optional) Additional Comments
+      description: "Anything else you'd like to cover"
+      placeholder: We ❤️ open source
+    validations:
+      required: false
