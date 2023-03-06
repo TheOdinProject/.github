@@ -1,8 +1,6 @@
 name: Bug report
 description: Report a issue or bug
 title: "Bug: <short description of bug>"
-assigness:
-  - nil
 body:
   - type: markdown
     attributes: 
