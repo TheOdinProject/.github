@@ -1,5 +1,5 @@
-name: Bug report
-description: Report a issue or bug
+name: Bug Report
+description: Create a report to help us improve something that is not working correctly 
 title: "Bug: <short description of bug>"
 body:
   - type: markdown
@@ -41,7 +41,7 @@ body:
     attributes:
       label: (Optional) Discord discussion
       description: If this has been discussed on Discord, provide a link to the thread/messages where it was discussed
-      placeholder: ex. odinite#1234
+      placeholder: 
     validations:
       required: false
   - type: input
