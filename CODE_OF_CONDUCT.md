@@ -4,7 +4,7 @@ The Odin Project's online communities are intended to be informative and relaxin
 
 1. Be polite, welcoming, and inclusive.
 
-2. Inappropriate conduct and harassment of any kind will not be tolerated. Any such remarks will result in an immediate ban.
+2. Inappropriate conduct andgfdsg harassment of any kind will not be tolerated. Any such remarks will result in an immediate ban.
 
 3. Actions that seem specifically designed to test the limits of what is offensive and serve no other purpose (i.e., trolling) will not be tolerated, and such sessions will be immediately terminated.
 
