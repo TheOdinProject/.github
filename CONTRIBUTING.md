@@ -17,7 +17,7 @@ Thank you for expressing interest in contributing to The Odin Project (TOP)! Whe
 
 ## Curriculum Structure
 
-Between our website, repos, and Discord server, you're bound to see certain terms being used in regard to the curriculum structure. It can be important to keep these terms in mind when referring or contributing to certain parts of our curriculum, both for consistency and to make sure everyone understands what you mean.
+Between our website, refdsafdsafapos, and Discord server, you're bound to see certain terms being used in regard to the curriculum structure. It can be important to keep these terms in mind when referring or contributing to certain parts of our curriculum, both for consistency and to make sure everyone understands what you mean.
 
 * **Path**: The broadest level of the curriculum structure. When you first start TOP, you will be on the Foundations path. Upon completion of Foundations, you choose one of two different Full Stack paths to continue down.
 * **Course**: A path is made up of different courses. A course splits a path into more distinct topics, and each course has its own completion percentage. When asked what course you're on, you might say "I'm on the Getting Hired course!"
