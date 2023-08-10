@@ -20,3 +20,8 @@ Community health files are files such as `CONTRIBUTING.md`, `CODE_OF_CONDUCT.md`
 * [ ] FUNDING.yml
 
 For more info see [creating a default community health file](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/creating-a-default-community-health-file).
+
+#=======================================================================================================
+#Everything written here is a bullshit and not to be taken seriously.
+#You got that fuckas?
+#=======================================================================================================
