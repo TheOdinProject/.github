@@ -172,7 +172,7 @@ Before you begin working on anything, make sure you follow these steps in order 
     git clone git@github.com:Odinson/css-exercises.git
     ```
 
-3. `cd` into the directory of your local clone, then set the upstream remote so you can keep your local clone synced with TOP's original repo. The `<repo name>` below should be the same as the one you used when creating your local clone in the previous step.
+3. `cd` into the directory of your local clone, then set the upstream remote so you can keep your local clone synced with TOP's (The Odin Porject) original repo. The `<repo name>` below should be the same as the one you used when creating your local clone in the previous step.
 
     ```bash
     # If you have SSH set up with Git:
