@@ -2,6 +2,8 @@
 
 Thank you for expressing interest in contributing to The Odin Project (TOP)! Whether you are a first time contributor or you have made several contributions to our repos, please be sure to read this guide thoroughly before contributing as it will lessen the chances of any issues arising during the process.
 
+_Note:_ any pull request created for an issue that already has someone else assigned **will be closed without review**.
+
 ## Table of Contents
 * [Curriculum Structure](#curriculum-structure)
 * [Label Meanings](#label-meanings)
