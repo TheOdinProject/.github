@@ -16,7 +16,7 @@ Additionally, The Odin Project and its core members reserve the right to ban or 
 
 Examples of behavior that contribute to creating a positive environment include:
 
-  * Using welcoming and inclusive language.
+  * Using welcoming, kind and inclusive language.
 
   * Being respectful of differing viewpoints and experiences.
 
