@@ -15,7 +15,7 @@ Community health files are files such as `CONTRIBUTING.md`, `CODE_OF_CONDUCT.md`
 * [x] CODE_OF_CONDUCT.md
 * [x] CONTRIBUTING.md
 * [x] PULL_REQUEST_TEMPLATE.md
-* [ ] SECURITY.md
+* [x] SECURITY.md
 * [ ] SUPPORT.md
 * [ ] FUNDING.yml
 
