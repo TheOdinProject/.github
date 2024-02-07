@@ -89,6 +89,17 @@ While working on an existing or a new lesson, you must follow our [Layout Style 
 
 Before submitting a PR for an existing or a new lesson, you must use our [Lesson Preview Tool](https://www.theodinproject.com/lessons/preview) to ensure the lesson Markdown is correctly formatted and rendering properly.
 
+##### Curriculum linting
+
+To help enforce the layout specified in the guide we use [markdownlint](https://github.com/DavidAnson/markdownlint).  There are couple methods you can use to lint locally and avoid having to rework a submitted PR:
+
+1) [VSCode Plugin](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint) - This plugin will automatically pickup our main configuration and display errors similar to other issues in the editor.  We recommend that all contributors use this tool.
+1) [Node Package](https://github.com/DavidAnson/markdownlint-cli2) - At this time the VSCode plugin will not detect our configuration for the structure of lessons and projects.  To check these you will need to use the Node package.  You will need to have completed the lesson on installing Node on your system to use this package. To install the package run `npm install markdownlint-cli2 --global` in your terminal.  You can then check the file you are working on by using one of the following commands while you are in the curriculum directory:
+    - Lessons: `markdownlint-cli2 --config ./lesson.markdownlint-cli2.jsonc ./path-to-file`
+    - Projects: `markdownlint-cli2 --config ./project.markdownlint-cli2.jsonc ./path-to-file`
+
+
+
 <hr>
 
 #### [TOP Website Repo](https://github.com/TheOdinProject/theodinproject)
