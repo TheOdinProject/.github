@@ -89,7 +89,7 @@ While working on an existing or a new lesson, you must follow our [Layout Style 
 
 Before submitting a PR for an existing or a new lesson, you must use our [Lesson Preview Tool](https://www.theodinproject.com/lessons/preview) to ensure the lesson Markdown is correctly formatted and rendering properly.
 
-**Curriculum linting**
+##### Curriculum linting
 
 To help enforce the layout specified in the guide we use [markdownlint](https://github.com/DavidAnson/markdownlint).  There are couple methods you can use to lint locally and avoid having to rework a submitted PR:
 
