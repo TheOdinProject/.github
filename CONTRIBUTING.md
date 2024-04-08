@@ -8,7 +8,7 @@ _Note:_ any pull request created for an issue that already has someone else assi
 * [Curriculum Structure](#curriculum-structure)
 * [Label Meanings](#label-meanings)
 * [How to Contribute](#how-to-contribute)
-   * [Repo Specific Instructions](#repo-specific-instructions)
+   * [Repo Specific Contribution Guides](#repo-specific-contribution-guides)
    * [Check Before Doing Anything](#check-before-doing-anything)
    * [Being Assigned an Issue](#being-assigned-an-issue)
    * [Creating an Issue](#creating-an-issue)
@@ -79,45 +79,29 @@ Significant issues and changes can include:
 * HTML in lessons is not displaying properly
 * A new feature for the website
 
-### Repo Specific Instructions
+### Repo Specific Contribution Guides
 
-#### [TOP Curriculum Repo](https://github.com/TheOdinProject/curriculum)
+Each repository may have its own specific contribution guide that pertains only to that repo. You must be sure to read both this general contribution guide and any repo specific contribution guide if one exists.
 
-If you're new to contributing to open-source, or if you just want to make a really quick PR, you can click the "Improve this lesson on GitHub" link found at the end of each lesson instead of going through the steps to fork + clone one of our repos.
+#### Curriculum Repo
 
-While working on an existing or a new lesson, you must follow our [Layout Style Guide](https://github.com/TheOdinProject/curriculum/blob/main/LAYOUT_STYLE_GUIDE.md) to ensure the layout and formatting is consistent across our curriculum.
-
-Before submitting a PR for an existing or a new lesson, you must use our [Lesson Preview Tool](https://www.theodinproject.com/lessons/preview) to ensure the lesson Markdown is correctly formatted and rendering properly.
-
-##### Curriculum linting
-
-To help enforce the layout specified in the guide we use [markdownlint](https://github.com/DavidAnson/markdownlint).  There are a couple of methods you can use to lint locally and avoid having to rework a submitted PR:
-
-1) [VSCode Plugin](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint) - This plugin will automatically pickup our main configuration and display errors similar to other issues in the editor.  We recommend that all contributors use this tool.
-1) [Node Package](https://github.com/DavidAnson/markdownlint-cli2) - At this time the VSCode plugin will not detect our configuration for the structure of lessons and projects.  To check these you will need to use the Node package.  You will need to have completed the lesson on installing Node on your system to use this package. To install the package run `npm install markdownlint-cli2 --global` in your terminal.  You can then check the file you are working on by using one of the following commands while you are in the curriculum directory:
-    - Lessons: `markdownlint-cli2 --config ./lesson.markdownlint-cli2.jsonc ./path-to-file`
-    - Projects: `markdownlint-cli2 --config ./project.markdownlint-cli2.jsonc ./path-to-file`
-
-
+The [TOP curriculum repo](https://github.com/TheOdinProject/curriculum) contains all of the lessons in our curriculum. Any suggestions or changed to specific lesson content belong there.
 
 <hr>
 
-#### [TOP Website Repo](https://github.com/TheOdinProject/theodinproject)
+#### Web App Repo
 
-Before starting any work on our main website repo, you must read and follow the instructions found on [The Odin Project Wiki](https://github.com/TheOdinProject/theodinproject/wiki), specifically the pages regarding running TOP locally and adding new paths, courses, sections, and lessons.
-
-Before submitting a PR to our website repo, you must run the following tests in your local clone to ensure they all pass:
-
-  ```bash
-  rubocop
-  yarn eslint
-  rspec
-  yarn test
-  ```
+The [TOP web app repo](https://github.com/TheOdinProject/theodinproject) contains everything that builds the actual TOP website. Any suggestions or changes related to the structure of the curriculum, styling, or content at the website level belong there.
 
 <hr>
 
 #### Exercise Repos
+
+We have 3 primary exercise repos that we link to throughout our curriculum, designed to help users gain an understanding of concepts through practice. Any suggestions or changes to our exercises belong in one of the following repos:
+
+- [CSS exercises](https://github.com/TheOdinProject/css-exercises)
+- [JavaScript exercises](https://github.com/TheOdinProject/javascript-exercises)
+- [Ruby exercises](https://github.com/TheOdinProject/ruby-exercises)
 
 **Please do not open pull request (PR) with your solutions to any exercise repo**. Your PR will be immediately closed without being merged. The exercise repos are for you to do and keep any work on your own local machine or your personal GitHub.
 
@@ -125,12 +109,9 @@ Before submitting a PR for any of our exercise repos, you must make sure any tes
 
 <hr>
 
-#### [Odin-Bot Repo](https://github.com/TheOdinProject/odin-bot-v2)
+#### Odin-Bot Repo
 
-Before attempting to make any changes, be sure to read the following Wiki pages:
-* [Odin-Bot Commands](https://github.com/TheOdinProject/odin-bot-v2/wiki/Commands) for how to register a new command and how the callback function for a command works
-* [Odin-Bot Testing](https://github.com/TheOdinProject/odin-bot-v2/wiki/Testing) for how to setup or update test files for commands
-* [Getting Started](https://github.com/TheOdinProject/odin-bot-v2/wiki/Getting-Started) for how to setup Odin-Bot on your own server
+Our [Odin-bot repo](https://github.com/TheOdinProject/odin-bot-v2) is where the everyone's favorite Discord bot lives. Any changes or suggestions for the Odin-bot belong there.
 
 ### Check Before Doing Anything
 
