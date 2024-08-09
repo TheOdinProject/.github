@@ -85,7 +85,7 @@ Each repository may have its own specific contribution guide that pertains only 
 
 #### Curriculum Repo
 
-The [TOP curriculum repo](https://github.com/TheOdinProject/curriculum) contains all of the lessons in our curriculum. Any suggestions or changed to specific lesson content belong there.
+The [TOP curriculum repo](https://github.com/TheOdinProject/curriculum) contains all of the lessons in our curriculum. Any suggestions or changes to specific lesson content belong there.
 
 <hr>
 
