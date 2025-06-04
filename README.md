@@ -1,4 +1,4 @@
-This is a special repo for hosting community health files and our organisation profile. It has two main uses:
+This repository is dedicated to maintaining our community health documents and the official profile of our organization. It serves two primary purposes:
 
 ### Organisation Landing Page
 
