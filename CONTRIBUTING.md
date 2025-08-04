@@ -8,6 +8,7 @@ _Note:_ any pull request created for an issue that already has someone else assi
 * [Curriculum Structure](#curriculum-structure)
 * [Label Meanings](#label-meanings)
 * [How to Contribute](#how-to-contribute)
+   * [Types of Changes](#types-of-changes)
    * [Repo Specific Contribution Guides](#repo-specific-contribution-guides)
    * [Check Before Doing Anything](#check-before-doing-anything)
    * [Being Assigned an Issue](#being-assigned-an-issue)
@@ -63,7 +64,9 @@ The labels that get applied to issues and PRs in our repos have specific meaning
 
 ## How to Contribute
 
-**Simple Issues and Changes**: These don't have an overall significant impact on our repos. You can just open an issue or a PR in the appropriate repo. Simple issues and changes can include:
+### Types of Changes
+
+**Simple Issues and Changes**: These don't have an overall significant impact on our repos. 
 
 * Typo or grammar fixes - "I noticed that this sentence in this lesson is using incorrect grammar."
 * Simple syntax errors - "This line of code is missing a closing element tag."
