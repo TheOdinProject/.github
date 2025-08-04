@@ -111,7 +111,7 @@ Before submitting a PR for any of our exercise repos, you must make sure any tes
 
 #### Odin-Bot Repo
 
-Our [Odin-bot repo](https://github.com/TheOdinProject/odin-bot-v2) is where the everyone's favorite Discord bot lives. Any changes or suggestions for the Odin-bot belong there.
+Our [Odin-bot repo](https://github.com/TheOdinProject/odin-bot-v2) is where everyone's favorite Discord bot lives. Any changes or suggestions for the Odin-bot belong there.
 
 ### Check Before Doing Anything
 
